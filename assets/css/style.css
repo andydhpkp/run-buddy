@@ -141,20 +141,16 @@ footer a {
     border: none;
 }
 
-.intro {
-    text-align: center;
-}
-
 .intro p {
     line-height: 1.7;
     color: #39a6b2;
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .steps {
-    text-align: center;
     background: #fce138;
 }
 
@@ -185,10 +181,11 @@ footer a {
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 
 .primary-border {
@@ -199,9 +196,9 @@ footer a {
     border-color: #39a6b2;
 }
 
-.trainers {
-    text-align: center;
-}
+/* .trainers {
+
+} */
 
 .trainer {
     width: 900px;
@@ -247,7 +244,6 @@ footer a {
 }
 
 .contact {
-    text-align: center;
     background: #024e76;
 }
 
@@ -288,4 +284,8 @@ footer a {
 .hero-secondary {
     background-color: black;
     color: red;
+}
+
+.flex-row {
+    display: flex;
 }
